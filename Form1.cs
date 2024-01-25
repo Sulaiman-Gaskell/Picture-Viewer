@@ -29,6 +29,7 @@ namespace Picture_Viewer
             if (openFileDialog1.ShowDialog() == DialogResult.OK)
             {
                 pictureBox1.Load(openFileDialog1.FileName);
+                pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
             }
         }
 
@@ -58,16 +59,16 @@ namespace Picture_Viewer
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
         {
             // If the user selects the Stretch check box,
-            // chnage the PictureBox's
+            // change the PictureBox's
             // SizeMode property to "Stretch". If the user clears
             // the check box, canghe it to "Normal".
-            if (checkBox1.Checked)
+            if (stretchCheckBox.Checked)
             {
                 pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             }
             else
             {
-                pictureBox1.SizeMode = PictureBoxSizeMode.Normal;
+                pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
             }
 
         }
