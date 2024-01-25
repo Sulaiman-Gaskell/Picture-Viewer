@@ -5,7 +5,7 @@ A Simple Winforms app that has the following features:
    JPEG Files 
    PNG Files 
    BMP Files
- - Select a custom backgroud colour (hex colour picker included
+ - Select a custom background colour from select presets or create a preset to meet your needs
  - Force stretch selcected image to fit the window
  - Force shrink selcected image to show background (coming soon)
 
