@@ -8,7 +8,6 @@ A Simple Winforms app that has the following features:
    BMP Files are supported)
  - Choose a custom background colour from select presets. You may also create a custom preset to meet your needs
  - Force stretch selcected image to fit the window
- - Roate image (coming soon)
 
 Known Bugs:
  - You tell me
